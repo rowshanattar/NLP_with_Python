@@ -7,7 +7,7 @@ from nlplogic import corenlp
 
 def test_get_phrases():
     # Test with a valid Wikipedia page
-    phrases = corenlp.get_phrases("Albert Einstein")
+    phrases = corenlp.get_phrases("Google")
     assert isinstance(phrases, list)
     assert len(phrases) > 0
 
