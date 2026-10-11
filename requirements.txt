@@ -1,3 +1,7 @@
 textblob
 wikipedia
 ipython
+pylint
+black
+pytest
+fire
