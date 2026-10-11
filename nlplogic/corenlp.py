@@ -1,6 +1,8 @@
 import wikipedia
 from textblob import TextBlob
+
 wikipedia.set_user_agent("MyNLPProject/1.0 (contact)")
+
 
 def search_wikipedia(query):
     """
@@ -13,14 +15,17 @@ def search_wikipedia(query):
         print(f"An error occurred while searching Wikipedia: {e}")
         return None
 
+
 def summary_wikipedia(name):
     if name:
         return wikipedia.summary(name)
     return None
 
+
 def get_text(text):
     blob = TextBlob(text)
     return blob
+
 
 def get_phrases(name):
     try:
