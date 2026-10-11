@@ -1,5 +1,5 @@
 # NLP_with_Python
-
+[![CI](https://github.com/rowshanattar/NLP_with_Python/actions/workflows/ci.yml/badge.svg)](https://github.com/rowshanattar/NLP_with_Python/actions/workflows/ci.yml)
 A basic NLP project using Python, Wikipedia and TextBlob.
 
 ## What it does
